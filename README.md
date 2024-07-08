@@ -50,6 +50,18 @@ git status
 git add
 git commit
 ```
+To push 
+
+```
+git init
+git add Readme.md
+git add .
+git commit -m "lazy"
+git branch -M main
+git remote add origin repository_url
+git push -u origin main
+
+```
 
 This site was built using [GitHub Pages](https://pages.github.com/).
 
